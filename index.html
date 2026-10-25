@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>BB Gaming – small, original mobile games</title>
+<meta name="description" content="BB Gaming Ltd is a small UK studio making original, offline-friendly puzzle games for iPhone and Android.">
+<link rel="icon" href="img/favicon.png">
+<meta property="og:title" content="BB Gaming">
+<meta property="og:description" content="Small, original mobile games from the UK.">
+<meta property="og:image" content="https://bbgaming.co.uk/img/beampop-icon.png">
+<style>
+@font-face{font-family:'Bagel Fat One';src:url(fonts/bagel-fat-one-latin-400-normal.woff2) format('woff2');font-display:swap}
+@font-face{font-family:'Figtree';font-weight:500;src:url(fonts/figtree-latin-500-normal.woff2) format('woff2');font-display:swap}
+@font-face{font-family:'Figtree';font-weight:700;src:url(fonts/figtree-latin-700-normal.woff2) format('woff2');font-display:swap}
+:root{--bg:#0D2A2F;--panel:#123A40;--ink:#F7ECDA;--muted:#B9C9C4;--gold:#FFC845;--pink:#FF6FA8;--line:#ffffff1f}
+*{box-sizing:border-box}
+html{background:var(--bg)}
+body{margin:0;background:var(--bg);color:var(--ink);font:500 17px/1.6 'Figtree',system-ui,sans-serif}
+a{color:var(--gold)}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+header{display:flex;justify-content:space-between;align-items:center;padding:22px 0}
+.logo{font-family:'Bagel Fat One',system-ui;font-size:26px;letter-spacing:.5px;text-decoration:none;color:var(--ink)}
+.logo span{color:var(--gold)}
+nav a{color:var(--muted);text-decoration:none;margin-left:22px;font-weight:700;font-size:15px}
+nav a:hover{color:var(--ink)}
+.hero{padding:64px 0 56px}
+.hero h1{font-family:'Bagel Fat One',system-ui;font-weight:400;font-size:clamp(40px,7vw,72px);line-height:1.04;margin:0 0 18px;max-width:14ch}
+.hero h1 em{font-style:normal;color:var(--gold)}
+.hero p{color:var(--muted);font-size:19px;max-width:42ch;margin:0}
+.game{display:grid;grid-template-columns:1fr 1.1fr;gap:40px;align-items:center;background:var(--panel);border:1px solid var(--line);border-radius:28px;padding:36px;margin-bottom:64px}
+.game-head{display:flex;gap:18px;align-items:center;margin-bottom:16px}
+.game-head img{width:84px;height:84px;border-radius:20px}
+.game h2{font-family:'Bagel Fat One',system-ui;font-weight:400;font-size:34px;margin:0;line-height:1.1}
+.tag{display:inline-block;white-space:nowrap;font-size:13px;font-weight:700;color:var(--bg);background:var(--gold);border-radius:99px;padding:3px 12px;margin-top:6px}
+.game p{color:var(--muted);margin:0 0 18px}
+.game ul{margin:0 0 22px;padding-left:20px;color:var(--ink)}
+.links a{margin-right:18px;font-weight:700}
+.shots{display:flex;gap:14px;justify-content:center}
+.shots img{width:31%;max-width:170px;border-radius:18px;border:1px solid var(--line)}
+.shots img:nth-child(2){transform:translateY(-18px)}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:40px;padding-bottom:64px}
+.about h3{font-size:22px;margin:0 0 8px}
+.about p{color:var(--muted);margin:0}
+footer{border-top:1px solid var(--line);padding:28px 0 40px;color:var(--muted);font-size:14px}
+footer p{margin:4px 0}
+@media (max-width:760px){
+ .game{grid-template-columns:1fr;padding:24px}
+ .about{grid-template-columns:1fr;gap:28px}
+ nav a{margin-left:14px}
+ .tag{font-size:12px;padding:2px 10px}
+ .game h2{font-size:30px}
+ .hero{padding:36px 0 40px}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+ <a class="logo" href="/">BB <span>Gaming</span></a>
+ <nav><a href="#games">Games</a><a href="#contact">Contact</a></nav>
+</header>
+
+<section class="hero">
+ <h1>Small games, <em>big</em> satisfying moments.</h1>
+ <p>BB Gaming is an independent studio in the UK making original puzzle games for iPhone and Android: quick to learn, hard to put down, and playable offline.</p>
+</section>
+
+<section class="game" id="games">
+ <div>
+  <div class="game-head">
+   <img src="img/beampop-icon.png" alt="Beam Pop app icon">
+   <div><h2>Beam Pop</h2><span class="tag">Coming soon · iOS &amp; Android</span></div>
+  </div>
+  <p>Tap one blob and watch the chain reaction go. Plan the perfect first tap to clear every board.</p>
+  <ul>
+   <li>150+ hand-made levels</li>
+   <li>A fresh daily puzzle with weekly scores</li>
+   <li>Challenge links to beat your friends</li>
+   <li>Plays fully offline</li>
+  </ul>
+  <div class="links">
+   <a href="https://gamesbradblake.github.io/beampop/">Play the daily challenge</a>
+   <a href="https://gamesbradblake.github.io/privacy/beam-pop/">Privacy</a>
+   <a href="https://gamesbradblake.github.io/privacy/beam-pop/support/">Support</a>
+  </div>
+ </div>
+ <div class="shots">
+  <img src="img/shot-1.jpg" alt="Beam Pop chain reaction" loading="lazy">
+  <img src="img/shot-2.jpg" alt="Beam Pop daily puzzle" loading="lazy">
+  <img src="img/shot-3.jpg" alt="Beam Pop level complete" loading="lazy">
+ </div>
+</section>
+
+<section class="about" id="contact">
+ <div>
+  <h3>About us</h3>
+  <p>We make games we'd want to play ourselves: fair, friendly and free to enjoy, with optional ads and purchases that never get in the way.</p>
+ </div>
+ <div>
+  <h3>Get in touch</h3>
+  <p>Questions, feedback or press: <a href="mailto:games@bradblake.co.uk">games@bradblake.co.uk</a></p>
+ </div>
+</section>
+</div>
+
+<footer>
+ <div class="wrap">
+  <p>© <span id="y">2026</span> BB Gaming Ltd. Registered in England and Wales, company number 17541184.</p>
+  <p>Registered office: 5th Floor, 167-169 Great Portland Street, London, W1W 5PF, United Kingdom</p>
+ </div>
+</footer>
+<script>document.getElementById('y').textContent=new Date().getFullYear();</script>
+</body>
+</html>
