@@ -1,1 +1,3 @@
 google.com, pub-5306839773063930, DIRECT, f08c47fec0942fa0
+# Older publisher account, still used by Hammerfort 1.1/1.2 until players update. Remove once everyone is on 1.3.
+google.com, pub-1405274034244891, DIRECT, f08c47fec0942fa0
